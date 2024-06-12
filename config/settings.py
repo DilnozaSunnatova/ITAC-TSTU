@@ -40,9 +40,8 @@ INSTALLED_APPS = [
     'app',
     'rest_framework',
     'drf_yasg',
-    # 'django_filters',
-    # 'rest_framework',
-    # 'rest_framework.authtoken',
+   
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -111,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
 
